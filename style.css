@@ -1,0 +1,83 @@
+body{
+  background: var(--primary-color);
+}
+:root{
+  --primary-color: #edf2fc;
+  --secondary-color: #212121;
+  /* --primary-color: #000106;
+  --secondary-color: #fff; */
+}
+.dark-theme{
+  --primary-color: #edf2fc;
+  --secondary-color: #212121;
+}
+#myh1{
+  font-size: 4.5rem;
+  text-align: center;
+  color:var(--secondary-color);
+
+}
+
+button{
+  font-size: 6.5rem;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  min-width: 160px;
+  background-color: skyblue;
+  transition: background-color 0.5s ease;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  gap:4.5rem;
+ 
+ 
+  
+}
+button:hover{
+  background-color: tomato;
+}
+
+#playerChoice{
+  font-size: 3.5rem;
+  text-align: center;
+  font-family: monospace;
+  color:var(--secondary-color);
+}
+
+#computerChoice{
+  font-size: 3.5rem;
+  text-align: center;
+  font-family: monospace;
+  color:var(--secondary-color);
+}
+#result{
+  font-size: 4.5rem;
+  text-align: center;
+  font-family: monospace;
+  font-weight: bold;
+  margin: 30px 0;
+  color:var(--secondary-color);
+}
+
+.playerScore{
+  font-size: 2.5rem;
+  text-align: center;
+  font-family: monospace;
+  color:var(--secondary-color);
+}
+
+#scores{
+  color: green;
+}
+
+#comscore{
+  color: red;
+}
+
+#icon{
+  width: 30px;
+  cursor: pointer;
+}
